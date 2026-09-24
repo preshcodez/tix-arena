@@ -34,7 +34,7 @@ const ProfilePage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#060612] text-white font-sans">
-      <Navbar avatarUrl={profile.avatar} />
+      <Navbar/>
 
       <div className="max-w-[1100px] mx-auto px-6 py-9">
         <div className="mb-10">

@@ -6,7 +6,6 @@ import { useEvents } from "../contexts/EventContext";
 import Filter from "../components/searchResult/Filter";
 import EventList from "../components/searchResult/EventList";
 import NoResult from "../components/searchResult/NoResult";
-import Footer from "../components/explore/Footer";
 
 const Event = () => {
   const { filteredEvents, loading, error } = useEvents();

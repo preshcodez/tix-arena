@@ -1,6 +1,4 @@
 import ticketImage from "../../assets/images/searchResult/Ticket.svg";
-import EventCard from "./EventCard";
-import { events } from "../../data/events";
 import { useEvents } from "../../contexts/EventContext";
 
 const NoResult = () => {
@@ -106,20 +104,6 @@ const NoResult = () => {
             Complete the final steps to get your personalized account up and
             running.
           </p>
-        </div>
-      </div>
-
-      {/* =========================
-          YOU MAY LIKE
-      ========================= */}
-
-      <div>
-        <h1 className="text-[35px] pb-2.75 text-white">You may like</h1>
-
-        <div className="flex flex-col gap-4">
-          {events.slice(0, 10).map((event) => (
-            <EventCard key={event.id} event={event} />
-          ))}
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React from "react";
+
 import VendorPageLinks from "../../components/vendor/VendorPageLinks";
 import CreateEvent from "../../components/vendor/CreateEvent";
 
