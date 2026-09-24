@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\ADMIN\\\\Desktop\\\\tix-arena\" -Recurse -Directory)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(npx tsc *)",
+      "Bash(grep -iE \"^fa6$|^lu$\")",
+      "Bash(npm view *)",
+      "Bash(npm install *)",
+      "Bash(powershell -Command \"Get-Process -Id 23268 -ErrorAction SilentlyContinue | Select-Object Id,ProcessName,Path\")",
+      "Bash(powershell -Command \"Stop-Process -Id 23268 -Force -ErrorAction SilentlyContinue\")",
+      "Bash(powershell -Command \"Stop-Process -Id 25484 -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Get-NetTCPConnection -LocalPort 5173 -ErrorAction SilentlyContinue\")",
+      "Bash(grep -n '{/\\\\*' src/components/SignUpForm.tsx)",
+      "Bash(mv adminComponents admin)",
+      "Bash(mv authComponents auth)",
+      "Bash(mv vendorComponents vendor)",
+      "Bash(mv LandingPage landing)",
+      "Bash(mv profilePage profile)",
+      "Bash(sed -i 's#components/adminComponents#components/admin#g' pages/admin/AdminDashboard.tsx)",
+      "Bash(sed -i 's#components/vendorComponents#components/vendor#g' pages/admin/AdminDashboard.tsx)",
+      "Bash(sed -i 's#components/authComponents#components/auth#g' layouts/AuthLayout.tsx pages/auth/SignUp.tsx)",
+      "Bash(sed -i 's#components/vendorComponents#components/vendor#g' layouts/VendorLayout.tsx pages/vendor/CheckIn.tsx pages/vendor/CreateNewEvent.tsx pages/vendor/EventDetails.tsx pages/vendor/VendorDashboard.tsx)",
+      "Bash(sed -i 's#components/LandingPage#components/landing#g' pages/LandingPage.tsx)",
+      "Bash(powershell -Command \"Stop-Process -Id 22028 -Force -ErrorAction SilentlyContinue\")",
+      "Bash(powershell -Command \"Stop-Process -Id 24672 -Force -ErrorAction SilentlyContinue\")"
+    ]
+  }
+}
