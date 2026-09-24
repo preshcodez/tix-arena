@@ -157,7 +157,7 @@ export const EventProvider = ({ children }: EventProviderProps) => {
 
         const response = await api.get("/api/events");
 
-        const fetchedEvents = response.data?.events ?? [];
+        const fetchedEvents = response.data?.data ?? [];
 
         setEvents(fetchedEvents);
       } catch (err: any) {
