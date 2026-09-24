@@ -118,7 +118,6 @@ const NavBar = () => {
               {/* USER DROPDOWN */}
               <NavUserMenu
                 isOpen={isUserMenuOpen}
-                onClose={() => setIsUserMenuOpen(false)}
                 onViewProfile={() => {
                   setIsUserMenuOpen(false);
                   navigate("/profile");
@@ -219,7 +218,6 @@ const NavBar = () => {
               {/* USER DROPDOWN */}
               <NavUserMenu
                 isOpen={isUserMenuOpen}
-                onClose={() => setIsUserMenuOpen(false)}
                 onViewProfile={() => {
                   setIsUserMenuOpen(false);
                   navigate("/profile");

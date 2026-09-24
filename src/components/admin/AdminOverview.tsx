@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { LuHeart, LuLayoutGrid, LuUser } from "react-icons/lu";
 import add from "../../assets/images/vendorImages/Add.svg";
-import right from "../../assets/images/vendorImages/Arrow-Right.svg";
 import arrowDown from "../../assets/images/vendorImages/arrow-down.svg";
 import previous from "../../assets/images/vendorImages/previous.svg";
 import next from "../../assets/images/vendorImages/next.svg";

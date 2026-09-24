@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 import free from "../../assets/images/landingPage/Layer_1.svg";
