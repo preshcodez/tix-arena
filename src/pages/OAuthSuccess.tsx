@@ -31,7 +31,7 @@ const OAuthSuccess = () => {
           code,
         });
 
-        console.log("GOOGLE LOGIN SUCCESS:", response.data);
+        // console.log("GOOGLE LOGIN SUCCESS:", response.data);
 
         const { user, token } = response.data.data;
 
